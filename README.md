@@ -59,6 +59,8 @@ padang-restaurant/
 
 ## Daftar Sumber Gambar
 
+1. logo-dapur-padang.jpg : AI
+
 ---
 
 ## Catatan Proses
