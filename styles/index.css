@@ -1,0 +1,54 @@
+@keyframes slide-up {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#hero {
+    background-image: url(../assets/images/hero/hero-rumah-makan-padang.png);
+    color: white;
+    height: 530px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.hero-content {
+    width: 50%;
+    animation: slide-up 1s ease-out 0.3s 1 backwards normal;
+}
+
+.hero-content h1 {
+    color: #FFFFA0;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.hero-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #b71c1c;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content a:hover {
+    background-color: #820909;
+}
+
+footer {
+    margin-top: 0;
+}

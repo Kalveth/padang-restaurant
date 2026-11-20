@@ -60,6 +60,7 @@ padang-restaurant/
 ## Daftar Sumber Gambar
 
 1. logo-dapur-padang.jpg : AI
+2. hero-rumah-makan-padang.png : Dari Pexels dan diedit kembali menggunakan Canva (lisensi bebas)
 
 ---
 
