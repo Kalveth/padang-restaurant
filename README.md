@@ -61,6 +61,14 @@ padang-restaurant/
 
 1. logo-dapur-padang.jpg : AI
 
+### Galeri 
+
+1. dapur.jpg  : Pexels (lisensi bebas)
+2. depan-dapur.jpg  : Pexels (lisensi bebas)
+3. makanan.jpg  : Pexels (lisensi bebas)
+4. meja-makan.jpg  : Pexels (lisensi bebas)
+5. pajangan.jpg : Pexels (lisensi bebas)
+
 ---
 
 ## Catatan Proses
