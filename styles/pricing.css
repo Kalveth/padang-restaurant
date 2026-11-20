@@ -1,49 +1,73 @@
-.page-intro {
-  padding: 24px 0 12px;
+.package-box {
+    margin-top: 24px;
+    background-color: #ffffff;
+    border: 1px solid #e0d6d6;
+    border-radius: 8px;
+    padding: 18px 20px;
 }
 
-.package-group {
-  margin-top: 24px;
+.package-box h2 {
+    margin-bottom: 12px;
+    color: #820909;
+    font-size: 1.2rem;
 }
 
-.price-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-  background: #ffffff;
+.package-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 0.95rem;
 }
 
-.price-table caption {
-  text-align: left;
-  font-size: 0.9rem;
-  margin-bottom: 8px;
+.package-box thead {
+    background-color: #820909;
+    color: #FFFFA0;
 }
 
-.price-table th,
-.price-table td {
-  border: 1px solid #d4d4d4;
-  padding: 10px 12px;
-  text-align: left;
-  vertical-align: top;
+.package-box th,
+.package-box td {
+    border: 1px solid #e5d8d8;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
 }
 
-.price-table tbody tr:hover {
-  background-color: #f6f6f6;
-  transition: background-color 0.2s ease;
+.package-box td:last-child {
+    font-weight: 600;
+    color: #b71c1c;
+    white-space: nowrap;
 }
 
-.order-info {
-  margin: 28px 0;
-  padding: 16px;
-  background-color: #f9f9f9;
-  border-left: 3px solid #7a1c1c;
+.package-box tbody tr:nth-child(even) {
+    background-color: #fcf7f7;
 }
 
-.order-info ul {
-  margin: 8px 0 0;
-  padding-left: 18px;
+.package-box tbody tr:hover {
+    background-color: #f6e6e6;
 }
 
-.order-info li {
-  margin-bottom: 6px;
+.order-notes {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background-color: #820909;
+    color: #ffffff;
+    border: 1px solid #820909;
+    border-left: 5px solid #FFFFA0;
+    border-radius: 8px;
+}
+
+.order-notes h2 {
+    margin-bottom: 10px;
+    color: #FFFFA0;
+    font-size: 1.15rem;
+}
+
+.order-notes ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.order-notes li {
+    margin-bottom: 8px;
+    line-height: 1.5;
 }
