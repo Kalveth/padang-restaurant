@@ -1,0 +1,49 @@
+.page-intro {
+  padding: 24px 0 12px;
+}
+
+.package-group {
+  margin-top: 24px;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #ffffff;
+}
+
+.price-table caption {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid #d4d4d4;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.price-table tbody tr:hover {
+  background-color: #f6f6f6;
+  transition: background-color 0.2s ease;
+}
+
+.order-info {
+  margin: 28px 0;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #7a1c1c;
+}
+
+.order-info ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.order-info li {
+  margin-bottom: 6px;
+}
