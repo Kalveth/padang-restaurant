@@ -48,7 +48,7 @@
             <!-- 2. Ayam Pop -->
             <article class="product-card">
                 <div class="product-image-wrap">
-                    <img src="../assets/images/products/ayam-pop (1).jpg" alt="Ayam Pop" class="product-img">
+                    <img src="../assets/images/products/ayam-pop.jpg" alt="Ayam Pop" class="product-img">
                 </div>
                 <div class="product-info">
                     <h2 class="product-title">Ayam Pop</h2>
@@ -121,9 +121,89 @@
             </article>
         </section>
     </main>
+<!-- dapur padang product highlight above footer -->
+<style>
+  .dp-above-footer {
+    max-width: 960px;
+    margin: 32px auto 24px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border-left: 4px solid #c2410c;
+    background-color: #fff7ed;
+    color: #7c2d12;
+    font-family: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
 
+  .dp-above-footer__title {
+    margin: 0 0 4px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .dp-above-footer__desc {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .dp-above-footer__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .dp-above-footer__chip {
+    padding: 5px 11px;
+    border-radius: 999px;
+    font-size: 13px;
+    background-color: #ffedd5;
+    border: 1px solid #fdba74;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dp-above-footer__chip.is-picked {
+    background-color: #c2410c;
+    color: #ffffff;
+    border-color: #c2410c;
+  }
+</style>
+
+<section class="dp-above-footer" aria-label="rekomendasi menu dapur padang">
+  <div>
+    <h2 class="dp-above-footer__title">pilihan favorit dapur padang</h2>
+    <p class="dp-above-footer__desc">klik label menu sebelum lanjut ke bagian bawah halaman</p>
+  </div>
+  <div class="dp-above-footer__chips">
+    <span class="dp-above-footer__chip">rendang daging</span>
+    <span class="dp-above-footer__chip">ayam pop</span>
+    <span class="dp-above-footer__chip">dendeng balado</span>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll(".dp-above-footer__chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      chip.classList.toggle("is-picked");
+    });
+  });
+</script>
     <footer>
         <p>© Dapur Padang - 2011</p>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
