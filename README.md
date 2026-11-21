@@ -67,6 +67,15 @@ padang-restaurant/
 
 ---
 
+### Produtcs
+
+1.gambar ayam pop: google
+2.gambar ayam goreng lengkuas:google
+3.gambar perkedel kentang: google
+4.gambar rendang sapi:google
+5.gambat telur dadar padang; google
+6.gambar sayur nangka: google
+
 ## Refleksi Tiap Anggota
 
 1. Kalven Mablevin:
