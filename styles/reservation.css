@@ -138,25 +138,3 @@ body {
 #reservationForm button:hover {
     background: var(--secondary);
 }
-
-@media (max-width: 768px) {
-    .reservation-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .reservation-form-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .reservation-form-grid .full-width {
-        grid-column: auto;
-    }
-
-    .reservation-hero h1 {
-        font-size: 34px;
-    }
-
-    .reservation-section {
-        padding: 40px 6%;
-    }
-}
