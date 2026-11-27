@@ -1,234 +1,113 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katering - Dapur Padang</title>
+    <title>Reservasi - Dapur Padang</title>
 
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/forms.css">
+    <link rel="stylesheet" href="../styles/reservation.css">
 </head>
-
-<body class="catering-page">
+<body>
 
 <header>
-    <img src="../assets/images/logo/logo-dapur-padang.jpg"
-         alt="Logo Dapur Padang">
-
+    <img src="../assets/images/logo/logo-dapur-padang.jpg" alt="Dapur Padang">
     <nav>
         <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
             <li><a href="gallery.html">Galeri</a></li>
             <li><a href="products.html">Produk</a></li>
             <li><a href="pricing.html">Harga</a></li>
-            <li><a href="catering.html" class="active">Katering</a></li>
-            <li><a href="reservation.html">Reservasi</a></li>
+            <li><a href="catering.html">Katering</a></li>
+            <li><a href="reservation.html" class="active">Reservasi</a></li>
             <li><a href="contact.html">Kontak</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <section class="form-hero">
-        <div>
-            <p class="eyebrow">DAPUR PADANG</p>
-            <h1>Layanan Katering</h1>
-            <p>
-                Hidangkan kelezatan masakan Padang dalam setiap
-                acara spesial Anda. Dibuat dengan bumbu racikan
-                sendiri dan bahan-bahan segar.
-            </p>
-            <a href="#pesan-katering" class="main-button">
-                Pesan Katering
-            </a>
-        </div>
-    </section>
-
-    <section class="content-section">
-        <div class="section-heading">
-            <p class="eyebrow">LAYANAN KAMI</p>
-            <h2>Katering untuk Berbagai Acara</h2>
-            <p>
-                Kami siap menemani berbagai momen spesial Anda
-                dengan hidangan khas Minangkabau.
-            </p>
-        </div>
-
-        <div class="service-grid">
-            <article class="service-card">
-                <div class="service-icon">🎉</div>
-                <h3>Acara Keluarga</h3>
-                <p>
-                    Sajian lezat untuk acara keluarga, ulang tahun,
-                    dan pertemuan bersama orang tersayang.
-                </p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-icon">🏢</div>
-                <h3>Acara Kantor</h3>
-                <p>
-                    Menyediakan hidangan untuk rapat, seminar,
-                    pertemuan, dan kegiatan perusahaan.
-                </p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-icon">🎓</div>
-                <h3>Acara Sekolah</h3>
-                <p>
-                    Pilihan makanan untuk kegiatan sekolah,
-                    perayaan, dan acara komunitas.
-                </p>
-            </article>
-        </div>
-    </section>
-
-    <section class="content-section package-section">
-        <div class="section-heading">
-            <p class="eyebrow">PILIHAN KAMI</p>
-            <h2>Paket Katering</h2>
-            <p>Pilih jenis paket sesuai kebutuhan acara Anda.</p>
-        </div>
-
-        <div class="package-grid">
-            <article class="package-card">
-                <h3>Paket Hemat</h3>
-                <p class="package-description">
-                    Cocok untuk acara sederhana.
-                </p>
-                <ul>
-                    <li>Nasi putih</li>
-                    <li>Ayam gulai</li>
-                    <li>Sayur nangka</li>
-                    <li>Sambal</li>
-                </ul>
-                <a href="#pesan-katering" class="package-button">
-                    Pilih Paket
-                </a>
-            </article>
-
-            <article class="package-card featured">
-                <span class="package-label">Favorit</span>
-                <h3>Paket Spesial</h3>
-                <p class="package-description">
-                    Hidangan lebih lengkap untuk acara spesial.
-                </p>
-                <ul>
-                    <li>Nasi putih</li>
-                    <li>Rendang</li>
-                    <li>Ayam pop</li>
-                    <li>Sayur nangka</li>
-                    <li>Sambal dan kerupuk</li>
-                </ul>
-                <a href="#pesan-katering" class="package-button">
-                    Pilih Paket
-                </a>
-            </article>
-
-            <article class="package-card">
-                <h3>Paket Lengkap</h3>
-                <p class="package-description">
-                    Pilihan hidangan untuk acara besar.
-                </p>
-                <ul>
-                    <li>Nasi putih</li>
-                    <li>Rendang</li>
-                    <li>Ayam gulai</li>
-                    <li>Dendeng balado</li>
-                    <li>Sayur dan sambal</li>
-                </ul>
-                <a href="#pesan-katering" class="package-button">
-                    Pilih Paket
-                </a>
-            </article>
-        </div>
-
-        <p class="package-note">
-            Harga paket menyesuaikan jumlah pesanan dan kebutuhan acara.
-            Silakan hubungi kami untuk mendapatkan penawaran.
+    <section class="reservation-hero">
+        <p>DAPUR PADANG</p>
+        <h1>Reservasi Meja</h1>
+        <p>
+            Nikmati hidangan khas Padang bersama keluarga
+            dan teman. Pesan meja Anda sekarang!
         </p>
+        <a href="#form-reservasi">Reservasi Sekarang</a>
     </section>
 
-    <section class="content-section form-section" id="pesan-katering">
-        <div class="section-heading">
-            <p class="eyebrow">PEMESANAN</p>
-            <h2>Formulir Pemesanan Katering</h2>
-            <p>
-                Isi informasi berikut agar kami dapat mengetahui
-                kebutuhan katering Anda.
-            </p>
+    <section class="reservation-section">
+        <h2>Mengapa Melakukan Reservasi?</h2>
+
+        <div class="reservation-grid">
+            <article>
+                <h3>🪑 Meja Lebih Terjamin</h3>
+                <p>Rencanakan kunjungan agar lebih nyaman.</p>
+            </article>
+
+            <article>
+                <h3>👨‍👩‍👧‍👦 Cocok untuk Keluarga</h3>
+                <p>Nikmati waktu bersama orang tersayang.</p>
+            </article>
+
+            <article>
+                <h3>⏰ Waktu Lebih Teratur</h3>
+                <p>Tentukan waktu kedatangan sesuai jadwal.</p>
+            </article>
         </div>
+    </section>
 
-        <form class="order-form" id="cateringForm">
-            <div class="form-grid">
-                <div class="form-group">
+    <section class="reservation-section form-section" id="form-reservasi">
+        <h2>Formulir Reservasi</h2>
+
+        <form id="reservationForm">
+            <div class="reservation-form-grid">
+                <div>
                     <label for="nama">Nama Pemesan</label>
-                    <input type="text" id="nama" name="nama"
-                           placeholder="Nama lengkap" required>
+                    <input type="text" id="nama" name="nama" required>
                 </div>
 
-                <div class="form-group">
+                <div>
                     <label for="telepon">Nomor Telepon</label>
-                    <input type="tel" id="telepon" name="telepon"
-                           placeholder="08xxxxxxxxxx" required>
+                    <input type="tel" id="telepon" name="telepon" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="acara">Jenis Acara</label>
-                    <select id="acara" name="acara" required>
-                        <option value="">Pilih acara</option>
-                        <option>Acara Keluarga</option>
-                        <option>Ulang Tahun</option>
-                        <option>Acara Sekolah</option>
-                        <option>Acara Kantor</option>
-                        <option>Pernikahan</option>
+                <div>
+                    <label for="tanggal">Tanggal Reservasi</label>
+                    <input type="date" id="tanggal" name="tanggal" required>
+                </div>
+
+                <div>
+                    <label for="waktu">Waktu Kedatangan</label>
+                    <input type="time" id="waktu" name="waktu" required>
+                </div>
+
+                <div>
+                    <label for="jumlah">Jumlah Pengunjung</label>
+                    <input type="number" id="jumlah" name="jumlah"
+                           min="1" max="100" required>
+                </div>
+
+                <div>
+                    <label for="keperluan">Keperluan</label>
+                    <select id="keperluan" name="keperluan" required>
+                        <option value="">Pilih keperluan</option>
+                        <option>Makan Bersama Keluarga</option>
+                        <option>Makan Bersama Teman</option>
+                        <option>Acara Ulang Tahun</option>
+                        <option>Pertemuan</option>
                         <option>Lainnya</option>
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="paket">Pilihan Paket</label>
-                    <select id="paket" name="paket" required>
-                        <option value="">Pilih paket</option>
-                        <option>Paket Hemat</option>
-                        <option>Paket Spesial</option>
-                        <option>Paket Lengkap</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="tanggal">Tanggal Acara</label>
-                    <input type="date" id="tanggal" name="tanggal" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="jumlah">Jumlah Porsi</label>
-                    <input type="number" id="jumlah" name="jumlah"
-                           min="1" placeholder="Contoh: 50" required>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="alamat">Alamat Pengiriman</label>
-                    <textarea id="alamat" name="alamat" rows="3"
-                              placeholder="Masukkan alamat lengkap"
-                              required></textarea>
-                </div>
-
-                <div class="form-group full-width">
+                <div class="full-width">
                     <label for="catatan">Catatan Tambahan</label>
-                    <textarea id="catatan" name="catatan" rows="3"
-                              placeholder="Permintaan khusus (opsional)"></textarea>
+                    <textarea id="catatan" name="catatan"></textarea>
                 </div>
             </div>
 
-            <button type="submit" class="submit-button">
-                Kirim Pemesanan
-            </button>
-
-            <p id="cateringMessage" class="form-message"
-               aria-live="polite"></p>
+            <button type="submit">Kirim Reservasi</button>
+            <p id="reservationMessage"></p>
         </form>
     </section>
 </main>
@@ -237,39 +116,6 @@
     <p>&copy; Dapur Padang - 2011</p>
 </footer>
 
-<script>
-const cateringForm = document.getElementById("cateringForm");
-
-const cateringDate = document.getElementById("tanggal");
-cateringDate.min = new Date().toISOString().split("T")[0];
-
-cateringForm.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    if (!cateringForm.reportValidity()) return;
-
-    const data = new FormData(cateringForm);
-
-    const message =
-        "Halo Dapur Padang, saya ingin memesan katering.%0A%0A" +
-        "Nama: " + encodeURIComponent(data.get("nama")) + "%0A" +
-        "Telepon: " + encodeURIComponent(data.get("telepon")) + "%0A" +
-        "Acara: " + encodeURIComponent(data.get("acara")) + "%0A" +
-        "Paket: " + encodeURIComponent(data.get("paket")) + "%0A" +
-        "Tanggal: " + encodeURIComponent(data.get("tanggal")) + "%0A" +
-        "Jumlah Porsi: " + encodeURIComponent(data.get("jumlah")) + "%0A" +
-        "Alamat: " + encodeURIComponent(data.get("alamat")) + "%0A" +
-        "Catatan: " + encodeURIComponent(data.get("catatan"));
-
-    // Ganti nomor berikut dengan nomor WhatsApp resmi restoran.
-    const nomorWhatsApp = "6281234567890";
-
-    window.open(
-        "https://wa.me/" + nomorWhatsApp + "?text=" + message,
-        "_blank"
-    );
-});
-</script>
-
+<script src="../scripts/reservation.js"></script>
 </body>
 </html>
