@@ -1,0 +1,162 @@
+:root {
+    --primary: #820909;
+    --secondary: #b71c1c;
+    --accent: #ffffa0;
+    --background: #fffaf3;
+}
+
+body {
+    background: var(--background);
+    color: #333;
+}
+
+.reservation-hero {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.reservation-hero > p:first-child {
+    color: var(--accent);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.reservation-hero h1 {
+    color: var(--accent);
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.reservation-hero p {
+    line-height: 1.8;
+}
+
+.reservation-hero a {
+    display: inline-block;
+    background: var(--secondary);
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.reservation-hero a:hover {
+    background: #600000;
+}
+
+.reservation-section {
+    padding: 60px 8%;
+}
+
+.reservation-section h2 {
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 35px;
+}
+
+.reservation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.reservation-grid article {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.reservation-grid h3 {
+    color: var(--primary);
+}
+
+.reservation-grid p {
+    line-height: 1.8;
+}
+
+.form-section {
+    background: #fff0e8;
+}
+
+#reservationForm {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.reservation-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.reservation-form-grid > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reservation-form-grid .full-width {
+    grid-column: 1 / -1;
+}
+
+#reservationForm label {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+#reservationForm input,
+#reservationForm select,
+#reservationForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+#reservationForm button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#reservationForm button:hover {
+    background: var(--secondary);
+}
+
+@media (max-width: 768px) {
+    .reservation-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reservation-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reservation-form-grid .full-width {
+        grid-column: auto;
+    }
+
+    .reservation-hero h1 {
+        font-size: 34px;
+    }
+
+    .reservation-section {
+        padding: 40px 6%;
+    }
+}
