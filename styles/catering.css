@@ -158,25 +158,3 @@ body {
 #cateringForm button:hover {
     background: var(--secondary);
 }
-
-@media (max-width: 768px) {
-    .catering-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .form-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .form-grid .full-width {
-        grid-column: auto;
-    }
-
-    .catering-hero h1 {
-        font-size: 34px;
-    }
-
-    .catering-section {
-        padding: 40px 6%;
-    }
-}
